@@ -1,6 +1,6 @@
-module github.com/Tnze/go-mc
+module github.com/pablodz/go-mc
 
-go 1.18
+go 1.20
 
 require (
 	github.com/google/uuid v1.1.1

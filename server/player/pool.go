@@ -7,8 +7,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/level"
-	"github.com/Tnze/go-mc/save"
+	"github.com/pablodz/go-mc/level"
+	"github.com/pablodz/go-mc/save"
 )
 
 type storage struct {

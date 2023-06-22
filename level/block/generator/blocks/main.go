@@ -11,7 +11,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/Tnze/go-mc/nbt"
+	"github.com/pablodz/go-mc/nbt"
 )
 
 //go:embed blocks.go.tmpl

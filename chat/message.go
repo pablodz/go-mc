@@ -4,7 +4,7 @@
 // or net/packet.Field .
 //
 // It's very recommended that use SetLanguage before using Message.String or Message.ClearString,
-// or the `github.com/Tnze/go-mc/data/en-us` will be used.
+// or the `github.com/pablodz/go-mc/data/en-us` will be used.
 // Note: The package of data/lang/... will SetLanguage on theirs init() so you don't need to call by your self.
 //
 // Some of these docs is copied from https://wiki.vg/Chat.
@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
-	en_us "github.com/Tnze/go-mc/data/lang/en-us"
-	pk "github.com/Tnze/go-mc/net/packet"
+	en_us "github.com/pablodz/go-mc/data/lang/en-us"
+	pk "github.com/pablodz/go-mc/net/packet"
 )
 
 // Colors
@@ -100,7 +100,7 @@ func (m Message) MarshalJSON() ([]byte, error) {
 	}
 }
 
-//UnmarshalJSON decode json to Message
+// UnmarshalJSON decode json to Message
 func (m *Message) UnmarshalJSON(raw []byte) (err error) {
 	if len(raw) == 0 {
 		return io.EOF

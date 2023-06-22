@@ -8,9 +8,9 @@ import (
 
 	//"github.com/mattn/go-colorable"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/bot/basic"
-	"github.com/Tnze/go-mc/chat"
+	"github.com/pablodz/go-mc/bot"
+	"github.com/pablodz/go-mc/bot/basic"
+	"github.com/pablodz/go-mc/chat"
 )
 
 var address = flag.String("address", "127.0.0.1", "The server address")

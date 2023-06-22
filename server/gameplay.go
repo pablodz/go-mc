@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/net"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/server/ecs"
+	"github.com/pablodz/go-mc/net"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/server/ecs"
 )
 
 type GamePlay interface {

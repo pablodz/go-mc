@@ -1,8 +1,8 @@
 package bot
 
 import (
-	"github.com/Tnze/go-mc/net"
 	"github.com/google/uuid"
+	"github.com/pablodz/go-mc/net"
 )
 
 // Client is used to access Minecraft server
@@ -15,6 +15,8 @@ type Client struct {
 
 	Events      Events
 	LoginPlugin map[string]func(data []byte) ([]byte, error)
+
+	ForgeMods []ForgeMod
 }
 
 func (c *Client) Close() error {
@@ -35,7 +37,7 @@ func NewClient() *Client {
 	}
 }
 
-//Position is a 3D vector.
+// Position is a 3D vector.
 type Position struct {
 	X, Y, Z int
 }

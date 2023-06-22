@@ -4,17 +4,17 @@ import (
 	"context"
 	_ "embed"
 	"flag"
-	"github.com/Tnze/go-mc/server/ecs"
-	"github.com/Tnze/go-mc/server/world"
+	"github.com/pablodz/go-mc/server/ecs"
+	"github.com/pablodz/go-mc/server/world"
 	"image"
 	_ "image/png"
 	"log"
 	"os"
 
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/server"
-	"github.com/Tnze/go-mc/server/command"
-	"github.com/Tnze/go-mc/server/player"
+	"github.com/pablodz/go-mc/chat"
+	"github.com/pablodz/go-mc/server"
+	"github.com/pablodz/go-mc/server/command"
+	"github.com/pablodz/go-mc/server/player"
 )
 
 var motd = chat.Message{Text: "A Minecraft Server ", Extra: []chat.Message{{Text: "Powered by go-mc", Color: "yellow"}}}

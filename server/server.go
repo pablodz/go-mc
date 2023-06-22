@@ -2,7 +2,7 @@
 // You can build the server you want by combining the various functional modules provided here.
 // An example can be found in examples/frameworkServer.
 //
-// This package is under rapid development, and any API may be subject to break changes
+// # This package is under rapid development, and any API may be subject to break changes
 //
 // A server is roughly divided into two parts: Gate and GamePlay
 //
@@ -27,7 +27,7 @@
 package server
 
 import (
-	"github.com/Tnze/go-mc/net"
+	"github.com/pablodz/go-mc/net"
 )
 
 const ProtocolName = "1.18.2"

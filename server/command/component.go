@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/server"
+	"github.com/pablodz/go-mc/data/packetid"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/server"
 )
 
 // Init implement server.Component for Graph

@@ -5,10 +5,10 @@ package player
 //	"io"
 //	"time"
 //
-//	"github.com/Tnze/go-mc/data/packetid"
-//	pk "github.com/Tnze/go-mc/net/packet"
-//	"github.com/Tnze/go-mc/server"
-//	"github.com/Tnze/go-mc/server/ecs"
+//	"github.com/pablodz/go-mc/data/packetid"
+//	pk "github.com/pablodz/go-mc/net/packet"
+//	"github.com/pablodz/go-mc/server"
+//	"github.com/pablodz/go-mc/server/ecs"
 //)
 //
 //type PlayerInfo struct {

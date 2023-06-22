@@ -11,14 +11,14 @@ import (
 	"github.com/google/uuid"
 	//"github.com/mattn/go-colorable"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/bot/basic"
-	"github.com/Tnze/go-mc/bot/screen"
-	"github.com/Tnze/go-mc/bot/world"
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/data/item"
-	_ "github.com/Tnze/go-mc/data/lang/zh-cn"
-	"github.com/Tnze/go-mc/level"
+	"github.com/pablodz/go-mc/bot"
+	"github.com/pablodz/go-mc/bot/basic"
+	"github.com/pablodz/go-mc/bot/screen"
+	"github.com/pablodz/go-mc/bot/world"
+	"github.com/pablodz/go-mc/chat"
+	"github.com/pablodz/go-mc/data/item"
+	_ "github.com/pablodz/go-mc/data/lang/zh-cn"
+	"github.com/pablodz/go-mc/level"
 )
 
 var address = flag.String("address", "127.0.0.1", "The server address")

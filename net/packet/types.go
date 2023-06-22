@@ -7,7 +7,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Tnze/go-mc/nbt"
+	"github.com/pablodz/go-mc/nbt"
 )
 
 // A Field is both FieldEncoder and FieldDecoder
@@ -404,7 +404,7 @@ func (d *Double) ReadFrom(r io.Reader) (n int64, err error) {
 	return
 }
 
-//NBT encode a value as Named Binary Tag
+// NBT encode a value as Named Binary Tag
 func NBT(v interface{}, optionalTagName ...string) Field {
 	if len(optionalTagName) > 0 {
 		return nbtField{V: v, FieldName: optionalTagName[0]}

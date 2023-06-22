@@ -16,8 +16,8 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/chat"
+	"github.com/pablodz/go-mc/bot"
+	"github.com/pablodz/go-mc/chat"
 )
 
 var protocol = flag.Int("p", 578, "The protocol version number sent during ping")

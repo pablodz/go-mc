@@ -5,10 +5,10 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/Tnze/go-mc/nbt"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/server"
-	"github.com/Tnze/go-mc/server/ecs"
+	"github.com/pablodz/go-mc/nbt"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/server"
+	"github.com/pablodz/go-mc/server/ecs"
 )
 
 //go:embed DimensionCodec.snbt

@@ -7,9 +7,9 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/pablodz/go-mc/chat"
+	"github.com/pablodz/go-mc/data/packetid"
+	pk "github.com/pablodz/go-mc/net/packet"
 )
 
 // PlayerList is a player list based on linked-list.

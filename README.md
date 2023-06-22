@@ -1,8 +1,8 @@
 # Go-MC
 
 ![Version](https://img.shields.io/badge/Minecraft-1.18.2-blue.svg)
-[![Go Reference](https://pkg.go.dev/badge/github.com/Tnze/go-mc.svg)](https://pkg.go.dev/github.com/Tnze/go-mc)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Tnze/go-mc)](https://goreportcard.com/report/github.com/Tnze/go-mc)
+[![Go Reference](https://pkg.go.dev/badge/github.com/pablodz/go-mc.svg)](https://pkg.go.dev/github.com/pablodz/go-mc)
+[![Go Report Card](https://goreportcard.com/badge/github.com/pablodz/go-mc)](https://goreportcard.com/report/github.com/pablodz/go-mc)
 [![Build Status](https://travis-ci.org/Tnze/go-mc.svg?branch=master)](https://travis-ci.org/Tnze/go-mc)
 [![Discord](https://img.shields.io/discord/915805561138860063?label=Discord)](https://discord.gg/A4qh8BT8Ue)
 
@@ -27,15 +27,15 @@ There's some library in Go support you to create your Minecraft client or server
 ## Getting start 
 
 After you install golang:  
-To get the latest version: `go get github.com/Tnze/go-mc@master`  
-To get old versions (e.g. 1.14.3): `go get github.com/Tnze/go-mc@v1.14.3`
+To get the latest version: `go get github.com/pablodz/go-mc@master`  
+To get old versions (e.g. 1.14.3): `go get github.com/pablodz/go-mc@v1.14.3`
 
 First, you might have a try of the simple examples. It's a good start.
 
 ### Run Examples
 
-- Run `go run github.com/Tnze/go-mc/cmd/mcping localhost` to ping and list the localhost mc server.
-- Run `go run github.com/Tnze/go-mc/cmd/daze` to join the local server at *localhost:25565* as player named Daze on the offline mode.
+- Run `go run github.com/pablodz/go-mc/cmd/mcping localhost` to ping and list the localhost mc server.
+- Run `go run github.com/pablodz/go-mc/cmd/daze` to join the local server at *localhost:25565* as player named Daze on the offline mode.
 
 ### Basic Usage
 
@@ -46,8 +46,8 @@ and `go-mc/net/packet`.
 这个库最核心的便是实现了Minecraft底层的网络通信协议，可以用于构造、发送、接收和解读MC数据包。这是靠 `go-mc/net` 和 `go-mc/net/packet`这两个包实现的。
 
 ```go
-import "github.com/Tnze/go-mc/net"
-import pk "github.com/Tnze/go-mc/net/packet"
+import "github.com/pablodz/go-mc/net"
+import pk "github.com/pablodz/go-mc/net/packet"
 ```
 
 It's very easy to create a packet. For example, after any client connected the server, it sends

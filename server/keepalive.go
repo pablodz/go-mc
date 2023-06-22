@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/server/ecs"
+	"github.com/pablodz/go-mc/data/packetid"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/server/ecs"
 )
 
 // keepAliveInterval represents the interval when the server sends keep alive

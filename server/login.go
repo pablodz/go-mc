@@ -5,12 +5,12 @@ import (
 
 	"github.com/google/uuid"
 
-	"github.com/Tnze/go-mc/chat"
-	"github.com/Tnze/go-mc/data/packetid"
-	"github.com/Tnze/go-mc/net"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/offline"
-	"github.com/Tnze/go-mc/server/auth"
+	"github.com/pablodz/go-mc/chat"
+	"github.com/pablodz/go-mc/data/packetid"
+	"github.com/pablodz/go-mc/net"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/offline"
+	"github.com/pablodz/go-mc/server/auth"
 )
 
 // LoginHandler is used to handle player login process, that is,

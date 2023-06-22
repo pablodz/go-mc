@@ -1,9 +1,9 @@
 package basic
 
 import (
-	"github.com/Tnze/go-mc/bot"
-	"github.com/Tnze/go-mc/data/packetid"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/pablodz/go-mc/bot"
+	"github.com/pablodz/go-mc/data/packetid"
+	pk "github.com/pablodz/go-mc/net/packet"
 )
 
 type Player struct {

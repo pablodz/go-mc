@@ -4,8 +4,8 @@ import (
 	"log"
 
 	"encoding/hex"
-	"github.com/Tnze/go-mc/offline"
-	"github.com/Tnze/go-mc/yggdrasil"
+	"github.com/pablodz/go-mc/offline"
+	"github.com/pablodz/go-mc/yggdrasil"
 )
 
 func ExamplePingAndList() {
@@ -50,7 +50,7 @@ func ExampleClient_JoinServer_online() {
 
 	// Login Mojang account to get AccessToken
 	// To use Microsoft Account, see issue #106
-	// https://github.com/Tnze/go-mc/issues/106
+	// https://github.com/pablodz/go-mc/issues/106
 	auth, err := yggdrasil.Authenticate("Your E-mail", "Your Password")
 	if err != nil {
 		panic(err)

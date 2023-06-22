@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/Tnze/go-mc/data/packetid"
-	"github.com/Tnze/go-mc/level"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/pablodz/go-mc/data/packetid"
+	"github.com/pablodz/go-mc/level"
+	pk "github.com/pablodz/go-mc/net/packet"
 )
 
 type Level interface {

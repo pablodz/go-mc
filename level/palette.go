@@ -5,8 +5,8 @@ import (
 	"math/bits"
 	"strconv"
 
-	"github.com/Tnze/go-mc/level/block"
-	pk "github.com/Tnze/go-mc/net/packet"
+	"github.com/pablodz/go-mc/level/block"
+	pk "github.com/pablodz/go-mc/net/packet"
 )
 
 type State interface {

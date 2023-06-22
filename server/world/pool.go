@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/Tnze/go-mc/level"
-	"github.com/Tnze/go-mc/save"
-	"github.com/Tnze/go-mc/save/region"
+	"github.com/pablodz/go-mc/level"
+	"github.com/pablodz/go-mc/save"
+	"github.com/pablodz/go-mc/save/region"
 )
 
 // TODO: Cache regions and chunks

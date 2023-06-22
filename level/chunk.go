@@ -7,10 +7,10 @@ import (
 	"math/bits"
 	"strings"
 
-	"github.com/Tnze/go-mc/level/block"
-	"github.com/Tnze/go-mc/nbt"
-	pk "github.com/Tnze/go-mc/net/packet"
-	"github.com/Tnze/go-mc/save"
+	"github.com/pablodz/go-mc/level/block"
+	"github.com/pablodz/go-mc/nbt"
+	pk "github.com/pablodz/go-mc/net/packet"
+	"github.com/pablodz/go-mc/save"
 )
 
 type ChunkPos struct{ X, Z int }
